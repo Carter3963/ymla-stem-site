@@ -1,25 +1,20 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YMLA STEM Department</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 font-sans">
-  <!-- Header -->
-  <header class="bg-blue-800 text-white p-6 shadow-md">
+<header class="bg-purple-800 text-white p-6 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img src="ymla-stem-logo.png" alt="YMLA STEM Logo" class="h-12 w-auto">
+        <h1 class="text-2xl font-bold">YMLA STEM Department</h1>
+      </div>
       <h1 class="text-2xl font-bold">YMLA STEM Department</h1>
       <nav class="space-x-4">
+        <a href="#mission" class="hover:underline">Mission</a>
         <a href="#teachers" class="hover:underline">Teachers</a>
         <a href="#courses" class="hover:underline">Courses</a>
         <a href="#projects" class="hover:underline">Projects</a>
-        <a href="#math" class="hover:underline">Math Team</a>
         <a href="#gallery" class="hover:underline">Student Work</a>
+        <a href="#clubs" class="hover:underline">Clubs</a>
+        <a href="#news" class="hover:underline">News</a>
         <a href="#resources" class="hover:underline">Resources</a>
-        <a href="#careers" class="hover:underline">Pathways</a>
+        <a href="#parents" class="hover:underline">Parents</a>
         <a href="#contact" class="hover:underline">Contact</a>
       </nav>
     </div>
@@ -27,32 +22,42 @@
 
   <!-- Hero Section -->
   <section class="bg-white py-16 text-center">
-    <h2 class="text-4xl font-bold text-blue-900 mb-4">Inspiring Future Innovators</h2>
+    <h2 class="text-4xl font-bold text-purple-900 mb-4">Inspiring Future Innovators</h2>
     <p class="text-gray-600 text-lg">Empowering students through science, technology, engineering, and math.</p>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="py-12 px-6 bg-purple-50">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-4 text-center">Our Mission</h3>
+    <p class="max-w-3xl mx-auto text-gray-700 text-center">To equip young men with 21st-century STEM skills through rigorous academics, authentic project-based learning, and leadership development—preparing them for college, careers, and global citizenship.</p>
   </section>
 
   <!-- Teachers Section -->
   <section id="teachers" class="py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">Meet the STEM Team</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Meet the STEM Team</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
       <div class="bg-white p-4 shadow rounded">
-        <h4 class="font-bold text-lg">Mr. Smith</h4>
-        <p>Biology & AP Biology</p>
+        <h4 class="font-bold text-lg">Mr. Steve Perez</h4>
+        <p>High School Science Lead</p>
       </div>
       <div class="bg-white p-4 shadow rounded">
-        <h4 class="font-bold text-lg">Ms. Garcia</h4>
-        <p>Chemistry & Honors Chemistry</p>
+        <h4 class="font-bold text-lg">Mr. Bryan Foster</h4>
+        <p>Mathematics Department Chair and Middle School Mathematics Lead</p>
       </div>
       <div class="bg-white p-4 shadow rounded">
-        <h4 class="font-bold text-lg">Mr. Johnson</h4>
-        <p>Physics & Environmental Systems</p>
+        <h4 class="font-bold text-lg">Mr. Rodney Siau</h4>
+        <p>High School Mathematics Lead</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg">Mr. Cord Carter</h4>
+        <p>Science Department Chair and Middle School Science Lead</p>
       </div>
     </div>
   </section>
 
   <!-- Courses Section -->
-  <section id="courses" class="bg-blue-50 py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">Courses Offered</h3>
+  <section id="courses" class="bg-purple-50 py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Courses Offered</h3>
     <ul class="list-disc max-w-xl mx-auto text-gray-700">
       <li>6th-8th Grade Integrated Science</li>
       <li>Biology & AP Biology</li>
@@ -66,7 +71,7 @@
 
   <!-- Projects Section -->
   <section id="projects" class="py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">Grants & Projects</h3>
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Grants & Projects</h3>
     <div class="max-w-3xl mx-auto text-gray-700">
       <p><strong>NSF DRK-12 Grant:</strong> Accelerating STEM Pathways in Middle School</p>
       <p><strong>Toshiba America Foundation:</strong> Middle School Science Fair & PBL Support</p>
@@ -74,17 +79,9 @@
     </div>
   </section>
 
-  <!-- Math Team Section -->
-  <section id="math" class="bg-white py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">YMLA Math Team</h3>
-    <div class="max-w-3xl mx-auto text-gray-700">
-      <p>Our Math Team competes in local and regional competitions, including UIL and MathCounts. Students meet weekly to solve challenging problems and sharpen their critical thinking skills.</p>
-    </div>
-  </section>
-
   <!-- Student Project Gallery -->
-  <section id="gallery" class="bg-blue-50 py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">Student STEM Projects</h3>
+  <section id="gallery" class="bg-purple-50 py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Student STEM Projects</h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       <img src="project1.jpg" alt="Project 1" class="w-full h-48 object-cover rounded shadow">
       <img src="project2.jpg" alt="Project 2" class="w-full h-48 object-cover rounded shadow">
@@ -92,35 +89,56 @@
     </div>
   </section>
 
-  <!-- Resources Section -->
-  <section id="resources" class="py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">Student Resources</h3>
+  <!-- Clubs Section -->
+  <section id="clubs" class="py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">STEM Clubs & Enrichment</h3>
     <ul class="list-disc max-w-xl mx-auto text-gray-700">
-      <li><a href="#" class="text-blue-700 underline">Google Classroom</a></li>
-      <li><a href="#" class="text-blue-700 underline">STAAR & EOC Review Materials</a></li>
-      <li><a href="#" class="text-blue-700 underline">Lab Safety Guidelines</a></li>
+      <li>Robotics Club</li>
+      <li>Science Olympiad & Science Fair</li>
+      <li>UIL Math & Science Competitions</li>
+      <li>Coding Club & 3D Printing</li>
     </ul>
   </section>
 
-  <!-- Career Pathways Section -->
-  <section id="careers" class="bg-white py-12 px-6">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-6 text-center">STEM Careers & College Readiness</h3>
-    <div class="max-w-3xl mx-auto text-gray-700 space-y-4">
-      <p>Explore careers in engineering, biotechnology, computer science, environmental science, and healthcare.</p>
-      <p>We provide college readiness workshops, dual credit opportunities, and mentorships with STEM professionals.</p>
-      <p><a href="#" class="text-blue-700 underline">Explore Career Resources</a></p>
-    </div>
+  <!-- News Section -->
+  <section id="news" class="bg-purple-50 py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">STEM News & Announcements</h3>
+    <ul class="list-disc max-w-xl mx-auto text-gray-700">
+      <li>STEM Night is scheduled for October 10, 2025</li>
+      <li>8th Grade STEM Camp applications open in March</li>
+      <li>Robotics placed 2nd in regional UIL</li>
+    </ul>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" class="py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Student Resources</h3>
+    <ul class="list-disc max-w-xl mx-auto text-gray-700">
+      <li><a href="#" class="text-purple-700 underline">Google Classroom</a></li>
+      <li><a href="#" class="text-purple-700 underline">STAAR & EOC Review Materials</a></li>
+      <li><a href="#" class="text-purple-700 underline">Lab Safety Guidelines</a></li>
+    </ul>
+  </section>
+
+  <!-- Parent Resources Section -->
+  <section id="parents" class="bg-white py-12 px-6">
+    <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">Parent Resources</h3>
+    <ul class="list-disc max-w-xl mx-auto text-gray-700">
+      <li><a href="#" class="text-purple-700 underline">STEM Parent Night Slides</a></li>
+      <li><a href="#" class="text-purple-700 underline">Volunteer Interest Form</a></li>
+      <li><a href="#" class="text-purple-700 underline">Course Planning Guide</a></li>
+    </ul>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="py-12 px-6 text-center">
-    <h3 class="text-2xl font-semibold text-blue-800 mb-4">Contact Us</h3>
-    <p>Email: <a href="mailto:ymla.stem@saisd.net" class="text-blue-600 underline">ymla.stem@saisd.net</a></p>
+    <h3 class="text-2xl font-semibold text-purple-800 mb-4">Contact Us</h3>
+    <p>Email: <a href="mailto:ymla.stem@saisd.net" class="text-purple-600 underline">ymla.stem@saisd.net</a></p>
     <p>Phone: (210) XXX-XXXX</p>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-blue-800 text-white text-center p-4 mt-12">
+  <footer class="bg-purple-800 text-white text-center p-4 mt-12">
     <p>&copy; 2025 Young Men's Leadership Academy STEM Department</p>
   </footer>
 </body>
